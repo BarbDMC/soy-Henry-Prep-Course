@@ -30,7 +30,7 @@ function numberOfCharacters(string) {
   const letterObject = {};
 
   splitString.forEach((letter) => {
-    if (letter in letterObject) {
+    if (letter in letterObject) { 
       letterObject[letter] = letterObject[letter] + 1
     }
 
